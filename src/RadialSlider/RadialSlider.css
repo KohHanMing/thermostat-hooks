@@ -1,0 +1,36 @@
+.slider-svg {
+    display: flex;
+    height: 50vmin;
+    width: 50vmin;
+    pointer-events: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider-radial {
+  stroke: black;
+  stroke-width: 8;
+}
+
+.thermostat-mode {
+  stroke: black;
+  stroke-width: 3;
+}
+
+.text {
+  fill: white;
+}
+  
+.font-temp-large {
+  font-size: calc(10px + 13vmin);
+  font-weight: bold;
+}
+
+.font-temp-medium {
+  font-size: calc(10px + 2vmin);
+}
+
+.font-temp-small {
+  font-size: calc(10px + 1vmin);
+}
+  
