@@ -1,0 +1,37 @@
+.knob-svg {
+    display: flex;
+    height: 50vmin;
+    width: 50vmin;
+    pointer-events: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider-knob {
+  fill: rgb(208, 208, 208);
+  stroke: rgb(122, 122, 122);
+  stroke-width: 5;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .slider-knob {
+    animation: knob-pulse 2s infinite
+  }
+}
+
+@keyframes knob-pulse {
+  0% {
+    transform: scale(0.90);
+  }   
+
+  
+  70% {
+    transform: scale(1);
+  }   
+
+  
+  100% {
+    transform: scale(0.90);
+  }   
+}
+  
